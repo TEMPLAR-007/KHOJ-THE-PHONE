@@ -56,18 +56,7 @@ const displayResult = (phones) => {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// load more button section////////////////////////////////////////////////////////////////////////
 const loadMoreBtn = () => {
     const serachValue = document.getElementById('search-box').value;
 
