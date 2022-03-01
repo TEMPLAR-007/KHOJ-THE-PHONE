@@ -30,6 +30,8 @@ const searchInput = () => {
         });
 };
 
+
+// all phone display section/////////////////////////////////////////////////////////////
 const displayResult = (phones) => {
 
     for (const phone of phones.slice(0, 20)) {
@@ -49,7 +51,6 @@ const displayResult = (phones) => {
                         </div>
                     </div>`;
         parentSection.appendChild(div);
-
     };
     document.getElementById('spinner').style.display = "none";
 };
