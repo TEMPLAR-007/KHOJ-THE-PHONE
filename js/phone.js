@@ -91,11 +91,7 @@ const loadMoreData = (phones) => {
 };
 
 
-
-
-
-
-
+// single phone details with modals///////////////////////////////////////////////////////////////////////////////// 
 const phoneDetails = (id) => {
     fetch(`https://openapi.programming-hero.com/api/phone/${id}`)
         .then(res => res.json())
