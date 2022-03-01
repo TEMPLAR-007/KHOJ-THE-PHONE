@@ -1,3 +1,5 @@
+
+// search item and loading spinner and error section/////////////////////////////
 const searchInput = () => {
     document.getElementById('spinner').style.display = "block";
     document.getElementById('parent').innerHTML = '';
@@ -24,10 +26,8 @@ const searchInput = () => {
                 document.getElementById('spinner').style.display = "none";
                 document.getElementById('error-msg').innerHTML = '';
                 document.getElementById('load-more-btn').style.display = "block";
-
             }
         });
-
 };
 
 const displayResult = (phones) => {
